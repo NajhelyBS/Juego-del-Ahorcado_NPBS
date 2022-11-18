@@ -1,0 +1,179 @@
+html {
+    display: block; 
+    background-image: url("https://cdna.artstation.com/p/assets/images/images/002/010/046/large/alena-aenami-graylandscape3.jpg?1455907189");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#imagen{
+    height: 212px;
+    width: 205px;
+    background-image: url('hangman.webp');
+    background-color: #d3d3d6b7;
+    border-radius: 24px;
+    border: 3px;
+    border-style: double;
+    border-color: #131313;
+    margin-top: 45px;
+    object-fit: contain;}
+#error{
+    display: none;
+    height: 212px;
+    width: 205px;
+    position: absolute;
+    top: 330px;
+    right: 250px;}
+#correcto{
+    display: none;
+    height: 212px;
+    width: 205px;
+    position: absolute;
+    top: 330px;
+    right: 250px;}
+#ganaste{
+    display: none;
+    height: 100vh;
+    font-family: fantasy;
+    text-shadow: 2px 9px 4px rgb(176, 54, 247);
+    color:white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 75px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-black-star-pattern-on-white-image_529216.jpg");
+     }
+#perdiste{
+        display: none;
+        height: 100vh;
+        font-family: fantasy;
+        text-shadow: 2px 9px 4px rgba(62, 61, 66, 0.726);
+        color:whitesmoke;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 75px;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background-image: url("https://cdnb.artstation.com/p/assets/images/images/044/943/921/large/csaba-jekkel-snowworld-web.jpg?1641545360");
+        background-position: center center;
+        background-attachment: fixed;
+        background-size: cover;}
+#perderimagen {
+    display: block;
+    position:relative;
+    top: -60px;
+    right: -160px;  
+}
+#cabecera{
+    font-family: monospace;
+    font-size: 1.9em;
+    font-style: oblique;
+    font-weight: bold;
+    color: azure;
+    text-shadow:  1px 3px 2px rgba(31, 32, 36, 0.726);}
+button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    color: gainsboro;
+    font-size: 20px;
+    text-indent: 0px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: #65676a;
+    border-bottom-color: gray;
+    padding: 3px 10px;
+    border-width: 2px;
+    border-radius: 5px;
+    border-style: outset;
+    box-shadow: #c3cccc 0px 0px 2px 2px;}
+input {
+    writing-mode: horizontal-tb !important;
+    font-family: monospace;
+    font-size: 20px;
+    text-rendering: auto;
+    color: whitesmoke;
+    text-align: center;
+    cursor: text;
+    background-color: #8d919aab;
+    margin: 0.3em;
+    padding: 4px 0px 4px -0px ;
+    padding-top: -5px;
+    border-width: 2px;
+    border-style: inset;
+    border-radius: 5px;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+}  
+h2{
+    font-family: monospace;
+    font-size: x-large;
+    text-shadow: 1px 3px 2px #79767c; 
+    margin-top: -8px;
+    background-color: #131313 ;
+}
+#output{
+    font-size: larger;
+    text-shadow: 3px 2px 3px #444344;
+    margin-top: 4px;
+}
+h1{
+    background-color: #444344a1;
+}
+#tituloP{
+    position: relative;
+    top: 6px;
+    color:#d42008;
+    font-size: larger;
+    text-shadow: 4px 8px 3px hsla(60, 100%, 99%, 0.78); 
+    letter-spacing: 6px;}
+#subP{
+    margin-top: -48px;
+    text-shadow: 4px 5px 4px #3b3f619d;
+    letter-spacing: 1px;}
+#cruz{
+    display: block;
+    position: absolute; 
+    top: 320px;
+    right: 740px;   }
+#tituloG{
+    position: relative;
+    top: 6px;
+    color:#79da2a;
+    font-size: larger;
+    text-shadow: 4px 8px 3px hsla(60, 100%, 99%, 0.78); 
+    letter-spacing: 6px;}
+#subG{
+    margin-top: -65px;
+    text-shadow: 4px 5px 4px #52c0269d;
+    color: rgb(53, 53, 53);
+    letter-spacing: 1px;}
+#ganarimagen {
+    display: block;
+    position:relative;
+    top: -60px;
+    right: -160px;  }
+#check{
+    display: block;
+    height: 230px;
+    width: 300px;
+    position: absolute; 
+    top: 328px;
+    right: 740px;   }
+#error1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;}
+#correcto1{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;}
+
